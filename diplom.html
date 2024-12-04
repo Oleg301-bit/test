@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Косметичний магазин</title>
+    <link rel="stylesheet" href="recent.css">
+    <link rel="stylesheet" href="dip.css">
+</head>
+<body>
+    <header class="header-contener">
+        <img src="./images/lodo.jpg" alt="Логотип">
+        <ul class="menu-list">
+            <li class="menu-item">Жіноча косметика</li>
+            <li class="menu-item">Чоловіча косметика</li>
+            <li class="menu-item">Косметика для підлітків</li>
+            <li class="menu-item">Лікувальна косметика</li>
+            <li class="menu-item">Контакти</li>
+            <li class="menu-item">Відгуки</li>
+        </ul>
+    </header>
+    <section class="first-screen">
+        <article class="first-screen-contener">
+        <h1 class="main-title">10  років якості та натуральності нашого продукту</h1>
+        <h2 class="main-descript">Вже понад 1 мільйон українців є споживачами нашої продукції й стали для нас  сім'єю,
+            долучайтесь й Ви до нашої великої родини!</h2>
+    </section>
+    <section class="inf-under-screen">
+        <article class="under-screen-contener">
+        <p class="under-screen-text">У магазині косметики ви знайдете натуральні продукти, 
+            створені для підтримки здоров'я та краси вашої шкіри. У нас представлені тільки 
+            якісні та перевірені засоби, щоб ви могли насолоджуватися безпечною 
+            та ефективною косметикою.</p>
+        
+     </article>
+     </section>
+     <section class="decoration-screen">
+    <article class="description-block">
+        <div class="flex-wrapper">
+        <h3 class="block-title">Жіноча косметика</h3>
+        <p class="block-text">Жіноча косметика
+             допомагає підкреслити природну красу та створити образ, який відповідає настрою та стилю.
+             Ідеальний макіяж – це поєднання якісної косметики та креативності, що дозволяє кожній жінці 
+             виглядати чарівно у будь-якій ситуації.<a href="w-kos.html">Переглянути товари --></a></p>
+            </div>
+        <img src="./images/w-kosm.jpg" alt="Зображення жіночої косметики" class="block-image">   
+    </article>
+    <article class="description-block">
+        <div class="flex-wrapper">
+        <h3 class="block-title">Чоловіча косметика</h3>
+        <p class="block-text">Популярність чоловічої
+             косметики зростає завдяки натуральним засобам, 
+             які допомагають доглядати за шкірою без подразнень.
+             Доглянутий вигляд — це важлива частина сучасного стилю, 
+             і чоловіча косметика допомагає легко досягти бажаного 
+             результату.<a href="">Переглянути товари --></a></p>
+            </div>
+            <img src="./images/m-kosm.jpg" alt="Зображення чоловічої косметики" class="block-image">
+
+    </article>
+    <article class="description-block">
+        <div class="flex-wrapper">
+        <h3 class="block-title">Косметика для підлітків</h3>
+        <p class="block-text">Підліткові засоби допомагають боротися 
+            з поширеними проблемами, такими як акне, жирний блиск або сухість шкіри.
+            Вибір правильної косметики в підлітковому
+             віці допомагає сформувати звичку дбати про шкіру та підтримувати її здоровий вигляд.
+             <a href="">Переглянути товари --></a></p>
+             </div>
+        <img src="./images/t2.jpg" alt="Зображення косметики для підлітків" class="block-image">
+      </article> 
+      <article class="description-block">
+        <div class="flex-wrapper">
+        <h3 class="block-title">Лікувальна косметика</h3>
+        <p class="block-text">Лікувальна косметика поєднує в собі властивості догляду та терапії, спрямованої на покращення стану шкіри.
+            Цей тип косметики рекомендований дерматологами для людей із чутливою шкірою, схильною до алергії чи подразнень.
+         <a href="">Переглянути товари --></a></p>
+            </div>
+            <img src="./images/t-cosm.jpg" alt="Зображення лікувальної косметики" class="block-image">
+      </article> 
+      <article class="under-the-block">
+        <p class="under-block-text">Догляд за собою — це не розкіш, а необхідність. Відкрийте для себе кращі засоби для вашої шкіри!
+            </p>
+      </article>
+      <article class="registr-form">
+        
+       <h3 class="registr-title">Реєстраційна форма</h3>
+       <form action="/register" method="post">
+        <label for="username">Ім'я користувача</label>
+        <input type="text" id="username" name="username" placeholder="Введіть будь-ласка своє ім'я" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Введіть будь-ласка свій email" required>
+        <label for="password">Пароль</label>
+        <input type="password" id="password" name="password" placeholder="Введіть будь-ласка пароль" required>
+        <label for="confirm-password">Повторіть пароль</label>
+        <input type="password" id="password" name="password" placeholder="Введіть будь-ласка пароль" required>
+        
+        <p>Ваша стать</p>
+        <input type="radio" id="male" name="gender" value="mail">
+        <label for="mail">Чоловік</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Жінка</label>
+        <input type="radio" id="teen" name="gender" value="teen">
+        <label for="teen">Підліток</label>
+        <label for="age">Ваш вік</label>
+        <select id="age" name="age" required>
+            <option value="">Оберіть свій вік</option>
+            <option value="under 18">До 18</option>
+            <option value="18-25">Від 18 до 25</option>
+            <option value="26-35">Від 26 до 35</option>
+            <option value="36-50">Від 36 до 50</option>
+            <option value="50plus">Більш ніж 50</option>
+        </select>
+    
+        <button type="submit" class="green-button">Зареструватися</button>
+
+
+       </form>
+       <p class="text-under-form">Разом до краси, яка не має меж. Ми завжди раді вам!</p>
+       </article>
+
+     </section>  
+     <footer class="footer-contener">
+        <ul class="footer-item-list">
+            <li class="footer-item">Контакти <br>(+380506561234)<br>(+380506561234)</li>
+            <li class="footer-item">Відгуки</li>
+            <li class="footer-item">Останні новини</li>
+
+        </ul>
+
+     </footer>  
+
+       
+
+   
+    
+    
+</body>
+</html>

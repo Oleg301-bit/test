@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*General style*/
+body{
+  font-family: "Montserrat";
+  font-size: 1em;    
+}
+
+.header-contener{
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content:space-between ;
+    position: fixed;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    margin-left: 3em;
+}
+.first-screen{
+    background-image: url('./images/t2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+}
+.first-screen-contener{
+    width: 50%;
+}
+.main-title{
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 1;
+    color: purple;
+}
+.main-descript{
+    color:purple;
+    font-weight: 400;
+}
+.under-screen-contener{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8em 10em;
+}
+.under-screen-text{
+    font-size: 2em;
+    font-weight: 600;
+}
+.description-block{
+    display: flex;
+    flex-direction: row;
+    background-color:whitesmoke;
+    padding: 1vh 3vw;
+    margin: 7vh;
+
+}
+.block-image {
+    max-width: 40vw;
+}
+.decoration-screen{
+    padding: 5vw;
+}
+.block-title{
+    font-size: 2.5em;
+}
+.block-text{
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+.under-the-block{
+    font-size: 1.3em;
+    padding: 4vw;
+
+}
+.under-screen-text{
+    font-size: 1.8em;
+}
+label{
+    display: block;
+    margin-bottom: 1vw;
+ }
+form{
+    border: 3px solid black;
+    padding: 3vh 3vw;
+    border-radius: 10px;
+    width: 19%;
+    box-sizing: border-box;
+
+}
+.registr-title{
+    margin-left: 3vw;
+}
+
+.green-button{
+    margin-top: 2vh;
+    border-radius: 5em;
+    padding: 1.8em 1.5em;
+    text-transform: uppercase;
+}
+.text-under-form{
+    font-size: 1.8em;
+    padding: 3.2vw;
+    margin-left: 15vw;
+}
+.footer-contener{
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content:space-between ;
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+.footer-item-list{
+    display: flex;
+    align-items: center;
+}
+.footer-item{
+    margin-left: 16em;
+}
