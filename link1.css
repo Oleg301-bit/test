@@ -9,14 +9,14 @@ body{
     flex-direction: row;
     padding: 2vh 6vw;
     margin: 6vw;
-    align-items: flex-start; /* выравнивание верхней части */
+    align-items: flex-start; 
 
 }
 
 .block-image {
     width: 17vw;
     height: 65vh;
-    margin-right: 4vw; /* добавляет разрыв между изображением и текстом */
+    margin-right: 4vw; 
 }
 
 .flex-wrapper {
